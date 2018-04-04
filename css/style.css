@@ -38,9 +38,6 @@ nav ul {
 	margin: 0;
 }
 
-nav ul li img {
-	margin-top: 8px;
-}
 
 nav ul li {
 	display: inline;
@@ -65,9 +62,11 @@ nav ul li {
 	text-decoration: none;
 }
 
-.iconmenu {
-
+nav ul li img {
+	position: relative;
+	top: 12px;
 }
+
 .box-center {
 	width: 800px;
 	height: 500px;
@@ -169,4 +168,8 @@ footer {
 .fr a {
 	margin-left: 20px;
 	opacity: 0.6
+}
+
+form {
+	margin-bottom: 20px;
 }
