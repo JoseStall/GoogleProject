@@ -62,3 +62,37 @@ nav ul li {
 .iconmenu {
 
 }
+.box-center {
+	width: 800px;
+	height: 500px;
+	margin-top: 300px;
+	text-align: center;
+}
+.principal {
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+}
+
+.cb {
+	clear: both;
+}
+.research-bloc {
+	width: 584px;
+	height: 44px;
+	display: inline-block;
+	border: 0.5px solid grey;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px;
+	text-align: center;
+	}
+
+.btn-google {
+	width: 114px;
+	height: 34px;
+	background-color: grey;
+	color: black;
+	display: inline-block;
+	margin-left: 20px;
+
+
+}
