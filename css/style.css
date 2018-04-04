@@ -46,7 +46,9 @@ nav ul li {
 	display: inline;
 	justify-content: space-around; 
 	flex-direction: ; 
-	margin-left: 10px;
+	margin-left: 20px;
+	font-size: 0.8em;
+	opacity: 0.6;
 }
 
 .btn-nav {
@@ -69,7 +71,7 @@ nav ul li {
 .box-center {
 	width: 800px;
 	height: 500px;
-	margin-top: 300px;
+	margin-top: 180px;
 	text-align: center;
 }
 .principal {
@@ -85,18 +87,28 @@ nav ul li {
 	width: 584px;
 	height: 44px;
 	display: inline-block;
-	border: 0.5px solid grey;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px;
+	border: 0.5px solid #F2F2F2;
+	box-shadow: 0 1px 3px #F2F2F2, 0 1px 2px;
 	text-align: center;
+	margin-bottom: 30px;
 	}
 
 .btn-google {
-	width: 114px;
+	width: 194px;
 	height: 34px;
-	background-color: grey;
+	background-color: #F2F2F2;
 	color: black;
 	display: inline-block;
 	margin-left: 20px;
+	line-height: 34px;
+	font-weight: bold;
+	font-size: 0.9em;
+	opacity: 0.6
+
+}
+.btn-google:hover {
+	border: 0.2px 
+
 }
 
 .footer-top {
@@ -106,12 +118,16 @@ nav ul li {
 	border-top: 0.5px solid #B5B5B5;
 	padding-left: 40px;
 }
+.footer-top p {
+	opacity: 0.6
+}
 
 footer {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	 ;
 }
 
 .footer-bottom {
@@ -141,6 +157,7 @@ footer {
 
 .fl a {
 	margin-right: 20px;
+	opacity: 0.6
 }
 
 .fr {
@@ -151,4 +168,5 @@ footer {
 
 .fr a {
 	margin-left: 20px;
+	opacity: 0.6
 }
